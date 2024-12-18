@@ -14,7 +14,7 @@ export default function Page() {
           </p>
           <h2 className="my-4 text-2xl">team (6.5%)</h2>
           <p className="my-4">
-            research, development, and sustaining the project's operations,
+            research, development, and sustaining the project&apos;s operations,
             ensuring continuous innovation and ecosystem growth.
           </p>
           <strong>
