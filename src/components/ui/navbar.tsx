@@ -24,6 +24,12 @@ const Navbar = () => {
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <Link
+                  href="/about"
+                  className="text-white hover:text-stone-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+                >
+                  About
+                </Link>
+                <Link
                   href="https://docs.tardionchain.xyz/"
                   className="text-white hover:text-stone-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
                 >
@@ -34,12 +40,6 @@ const Navbar = () => {
                   className="text-white hover:text-stone-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
                 >
                   Research
-                </Link>
-                <Link
-                  href="/about"
-                  className="text-white hover:text-stone-400 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
-                >
-                  About
                 </Link>
                 <Link
                   href="/tokenomics"
